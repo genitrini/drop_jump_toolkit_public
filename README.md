@@ -17,6 +17,8 @@ The hardware was connected to the Myo Research software from Noraxon (Scottsdale
   - determine which metrics are predictive of performance for a given athlete
 
 
+## Pre-processing
+
 
 ## Input data description
 In the PNG file it is possible to see how the data frame used for the analysis looks like. The first three columns (left to right) contain information regarding the participant's ID, the trial and 
