@@ -18,11 +18,7 @@ The hardware was connected to the Myo Research software from Noraxon (Scottsdale
 
 
 
-## Procedure
+## Input data description
+In the PNG file it is possible to see how the data frame used for the analysis looks like. The first three columns (left to right) contain information regarding the participant's ID, the trial and 
+box height in centimeters. The column quantity indicates the variable (which can be a GRF or a joint angle). The column "side" indicates whether the data are from the left or right limb. The column "body mass" refers to the body mass of the subject; this can be obtained weighting the subject on a scale prior to the DJ tasks or (as in the current work) dividing by the gravity acceleration the recorded force during quite standing after landing on the plate. The column 'time' refers to the time stamps of the recording; in our case, those come from the Myo Research software. Finally, the column 'value' is the numerical value of that given quantity.
 
-### Creating file with track edges
-
-
-### Converting telemetry data from .csv to .pkl
-
-# Obtaining corner points from telemetry data (entry, maximum curvature, clipping and exit)
