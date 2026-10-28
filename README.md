@@ -9,7 +9,7 @@ The hardware was connected to the Myo Research software from Noraxon (Scottsdale
 - Microsoft Excel
 - Python 3.10 or newer
 
-# We provide:
+## We provide:
 - A screenshot from the data frame to be prompted to the Python scripts
 - The python code needed to
   -  analyze the DJs
@@ -17,13 +17,12 @@ The hardware was connected to the Myo Research software from Noraxon (Scottsdale
   - determine which metrics are predictive of performance for a given athlete
 
 
-####################################################################################################################################################################################
 
 ## Procedure
 
-# Creating file with track edges
+### Creating file with track edges
 
 
-# Converting telemetry data from .csv to .pkl
+### Converting telemetry data from .csv to .pkl
 
 # Obtaining corner points from telemetry data (entry, maximum curvature, clipping and exit)
