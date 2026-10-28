@@ -1,4 +1,4 @@
-# Scientific Algorithm for Corner Detection
+# Scientific algorithm for drop jump analysis and single athlete profiling
 
 ## Description
 This software analyses ground reaction force (GRF) time series combined with joint angle data in order to provide a thorough analysis of drop jump (DJ) tasks using a single force plate 
@@ -11,10 +11,10 @@ The hardware was connected to the Myo Research software from Noraxon (Scottsdale
 
 # We provide:
 - A screenshot from the data frame to be prompted to the Python scripts
-- The python code needed to:
--- analyze the DJs
--- provide a comprehensive comparison between DJ instances
--- determine which metrics are predictive of performance for a given athlete
+- The python code needed to
+  -  analyze the DJs
+  - provide a comprehensive comparison between DJ instances
+  - determine which metrics are predictive of performance for a given athlete
 
 
 ####################################################################################################################################################################################
