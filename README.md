@@ -39,3 +39,10 @@ The column 'time' refers to the time stamps of the recording; in our case, those
 
 Finally, the column 'value' is the numerical value of that given quantity.
 
+## Main script
+Once the input .pkl file is ready, it may be uploaded and run in the "variables_computation" script. This file will compute the relevant DJ metrics for each jump instance. During computation, the "dj" function in the "utilities" script will produce a plot with GRF and knee flexion-extension angular velocity plotted on two Y-axis as a function of time. The user will be asked to click ONCE on the approximate location of peak angular velocity and close the plot window, if any peak is present. If not, the user may close the plot window without clicking anywhere. 
+
+The output will be a data frame with one line for each jump instance and a column for each computed metric.
+
+
+
