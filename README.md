@@ -44,5 +44,22 @@ Once the input .pkl file is ready, it may be uploaded and run in the "variables_
 
 The output will be a data frame with one line for each jump instance and a column for each computed metric.
 
+## Plots and statistics
+Running the script "plots_and_outputs" allows 1) to perform pairwise comparison of jump instances and 2) perform statistics in order to assess whether a certain metric is systematically
+present in better jumps (i.e. jumps with higher RSI). The result is a detailed description in written for as for point 1 and tables (both one per person and one where results  from all subjects are condensed, with the latter allowing a quick comparison between athletes).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
