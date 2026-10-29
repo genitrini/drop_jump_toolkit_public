@@ -8,8 +8,7 @@ from matplotlib import pyplot as plt
 #from sklearn.linear_model import LinearRegression
 import matplotlib.cm as cmap
 
-df2 = pd.read_pickle("jump_data_all.pkl")
-df = pd.read_pickle("jump_data_new.pkl")
+df = pd.read_pickle("jump_data_new.pkl") # upload the data frame produced by the "variables_computation" script
 df["subject"] = df["subject"].astype("category")
 df["height"] = df["height"].astype("category")
 df['com_disp_min'] *= -1 # setting downwards displecement and velocities to positive (i.e. I take their absolute value)
