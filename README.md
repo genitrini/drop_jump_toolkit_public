@@ -46,7 +46,7 @@ The output will be a data frame with one line for each jump instance and a colum
 
 ## Plots and statistics
 Running the script "plots_and_outputs" allows 1) to perform pairwise comparison of jump instances and 2) perform statistics in order to assess whether a certain metric is systematically
-present in better jumps (i.e. jumps with higher RSI). The result is a detailed description in written for as for point 1 and tables (both one per person and one where results  from all subjects are condensed, with the latter allowing a quick comparison between athletes).
+present in better jumps (i.e. jumps with higher RSI). The result is a detailed description in written for as for point 1 and tables as for point 2 (both one per person and one where results  from all subjects are condensed, with the latter allowing a quick comparison between athletes).
 
 
 
