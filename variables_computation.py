@@ -6,13 +6,13 @@ import seaborn as sns
 
 from matplotlib import pyplot as plt
 import os
-os.chdir("C:/Users/its/Documents/drop_jump/codes")
+os.chdir("your/project/directory")
 fs = 2000
 
 ################################################################ DROP JUMP METRICS #########################################################################
 
 
-data = pd.read_pickle("data_clean_all.pkl")
+data = pd.read_pickle("data_clean.pkl")
 data_fz = data[data['quantity'] == 'fz']
 df = pd.DataFrame(columns = ['subject', 'height', 'trial', 'rsi', 'jump_height',
                              'ttto', 'com_disp_min', 'pass_ecc_dur', 'act_ecc_dur', 'conc_dur',
@@ -34,7 +34,7 @@ for subj in data_fz.subject.unique():
             df.loc[len(df)] = row # adds iteratively a row with the data of a given jump instance to the previously created data frame
 
 
-df.to_pickle('jump_data_new.pkl') # saves data
+df.to_pickle('jump_data_computed.pkl') # saves data
 
 
 

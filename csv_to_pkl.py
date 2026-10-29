@@ -4,7 +4,7 @@ from utilities import *
 import numpy as np
 
 subj = -1 # start from -1 cause in  the first iteration (all files in root dir) I have no files and no subjects
-for root, dirs, files in os.walk("../data_csv"):
+for root, dirs, files in os.walk("../data_csv"): # select your directory with csv files saved
     subj += 1
     trial = 0
     h_prev = None
@@ -29,7 +29,7 @@ for root, dirs, files in os.walk("../data_csv"):
             data.insert(5, 'muscle', np.where(data["quantity"].isin(['bf', 'st','gm','gl','so','rf','vl','vm','ta',]), 'Y',  'N'))
             data = data[["subject", "trial", "height", "quantity", "muscle", "side", "time", "value"]]
             file_name = 's' + str(subj) + '_' + str(height) + '_' + str(trial) + '.pkl'
-            data.to_pickle('../data_pkl_all/' + file_name)
+            data.to_pickle('../data_pkl_all/' + file_name) # directory where pkl files will be saved
             h_prev = height
 
 

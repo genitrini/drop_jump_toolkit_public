@@ -86,7 +86,7 @@ for subj in df.subject.unique():
 
 df = df.sort_values(by=["subject", "height", "trial", "muscle", "quantity"], ascending=True)
 df = df.reset_index(drop=True)
-df.to_pickle('data_clean_all.pkl')
+df.to_pickle('data_clean.pkl')
 
 
 
