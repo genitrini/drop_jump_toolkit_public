@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it."
+type: software
+
+title: "Automated detailed analysis and single athlete profiling in drop jump tasks: a toolkit for athletes and practitioners"
+
+abstract: >-
+  Python implementation of an algorithm for analyzing and comparing drop jump instances and providing metrics relevant to performance for a given athlete.
+
+authors:
+  - family-names: "GENITRINI"
+    given-names: "MATTEO"
+    orcid: "https://orcid.org/0000-0001-9718-2928"
+  
+
+version: 1.0.0
+date-released: "2026-10-29"
+
+license: MIT
+
+repository-code: "https://github.com/genitrini/racing_toolkit_public"
+
+keywords:
+  - Python
+  - Drop jump
+  - Single athlete profiling
+  - Jump comparison
